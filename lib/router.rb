@@ -1,6 +1,7 @@
-require_relative "controller"
+require_relative 'controller'
 
 class Router
+
   def initialize
     @controller =  Controller.new
   end #ainsi, un "Router.new" lancé par app.rb va créer automatique une instance "@controller"

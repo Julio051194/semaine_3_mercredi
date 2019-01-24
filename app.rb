@@ -1,3 +1,5 @@
-$:.unshift File.expand_path("./../lib", __FILE__)
-require 'app/router'
+
+
+$:.unshift File.expand_path("./../lib",__FILE__)
+require 'router'
 Router.new.perform

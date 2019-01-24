@@ -4,9 +4,11 @@ class View
 		puts "author"
 		print '>'
 		author = gets.chomp
-		puts "contenir"
+		puts "contient"
 		print '>'
 		content = gets.chomp
-		params = {"#{author}" => "#{content}"} 
+		params = {"#{author}" => "#{content}"}
+		
 	end
+
 end

@@ -1,1 +1,3 @@
-Voici mon projet MVC du jour
+projet MVC 
+semaine 3
+formation THP
